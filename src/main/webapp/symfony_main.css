@@ -2,8 +2,8 @@
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
-	border: 1px solid red;
-	height: 100px;
+	/* border: 1px solid red; */
+	padding: 18px 10px 5px 70px;
 	background-color: white;
 }
 
@@ -14,15 +14,40 @@ color: yellow;
 	padding: 25px;
 }
 
-.carousel-inner img {
-	width: 100%; /* Set width to 100% */
-	margin: auto;
-	min-height: 200px;
-}
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media ( max-width : 600px) {
 	.carousel-caption {
 		display: none;
 	}
+}
+
+.logo {
+	padding: 15px;
+	/* border: 1px solid green; */
+	width: 180px; 
+	height:130px;
+	float: left;
+	clear: both;
+}
+
+.menu {
+	width: 200px;
+	height: 150px;
+	/* border: 1px solid blue; */
+	float: right;
+	
+}
+
+.main_page_image {
+	max-width: 50%;
+	height: auto;
+	
+	/* border: 5px solid yellow; */
+	
+}
+
+.middle_section {
+	margin: 20px 100px;
+	
 }
