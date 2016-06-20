@@ -1,18 +1,32 @@
 body {
-  /* font-family: 'Oswald', sans-serif; */
+	margin: 0px;
+	padding: 0px;
+	
 }
 
-.navbar {
-	margin-bottom: 0;
-	border-radius: 0;
-	/* border: 1px solid red; */
-	padding: 18px 10px 5px 70px;
-	background-color: white;
+.logo {
+	width: 155px; 
+	height:110px;
+	
+	margin: 5px 0px 10px 30px;
+	
+}
+
+.phone {
+	border-bottom: 1px solid #eee;
+	padding: 2px 15px 2px 0px;
+	
+}
+
+.header_menu {
+	padding: 50px 0px 0px 0px;
 }
 
 .mid_section {
 	background-color: #eee;
 }
+
+
 
 footer {
 	
@@ -27,11 +41,3 @@ footer {
 	}
 }
 
-.logo {
-	padding: 15px;
-	/* border: 1px solid green; */
-	width: 180px; 
-	height:130px;
-	float: left;
-	clear: both;
-}
