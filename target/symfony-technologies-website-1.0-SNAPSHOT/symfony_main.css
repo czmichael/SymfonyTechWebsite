@@ -1,4 +1,7 @@
-/* Remove the navbar's default margin-bottom and rounded borders */
+body {
+  /* font-family: 'Oswald', sans-serif; */
+}
+
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
@@ -7,10 +10,12 @@
 	background-color: white;
 }
 
-/* Add a gray background color and some padding to the footer */
+.mid_section {
+	background-color: #eee;
+}
+
 footer {
-color: yellow;	
-	background-color: #f2f2f2;
+	
 	padding: 25px;
 }
 
@@ -29,25 +34,4 @@ color: yellow;
 	height:130px;
 	float: left;
 	clear: both;
-}
-
-.menu {
-	width: 200px;
-	height: 150px;
-	/* border: 1px solid blue; */
-	float: right;
-	
-}
-
-.main_page_image {
-	max-width: 50%;
-	height: auto;
-	
-	/* border: 5px solid yellow; */
-	
-}
-
-.middle_section {
-	margin: 20px 100px;
-	
 }
