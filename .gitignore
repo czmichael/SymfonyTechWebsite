@@ -1,5 +1,6 @@
 target/
 build/
+node_modules/
 .gradle
 datanucleus.log
 .DS_Store

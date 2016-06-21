@@ -7,9 +7,7 @@ body {
 .logo {
 	width: 145px; 
 	height:100px;
-	
 	margin: 5px 0px 10px 30px;
-	
 }
 
 .phone {
@@ -26,15 +24,11 @@ body {
 	background-color: #eee;
 }
 
-
-
 footer {
 	
 	padding: 25px;
 }
 
-
-/* Hide the carousel text when the screen is less than 600 pixels wide */
 @media ( max-width : 600px) {
 	.carousel-caption {
 		display: none;

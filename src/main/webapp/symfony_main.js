@@ -1,4 +1,17 @@
 
+	
+$("#sendMessageButton").click(function() {
 
-	//alert("hi!!!!");
+	
+	
+	
+	var message = $('#message-text').val();
+	var email = $('#yourEmail').val();
+	//alert("send message..." + message + "   from: " + email);
+	
+	
+});
+	
+
+
 

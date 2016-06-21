@@ -8,9 +8,8 @@
 	<link rel="icon" href="favicon.JPG" type="image/jpg" sizes="16x16">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="symfony_main.css" />
-	<script src="symfony_main.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	
 </head>
 
 <body>
@@ -27,10 +26,11 @@
 				<img src="logo_black_small.JPG" alt="Symfony Technologies" class="logo">
 			</div>
 			<div class="col-md-1 header_menu">
-				<a href="/" class="text-uppercase">contact</a>
+				<a href="#" data-toggle="modal" data-target="#emailModal" data-whatever="@mdo" class="text-uppercase">contact</a>
 			</div>
 			<div class="col-md-4 header_menu">
 				<a href="/" class="text-uppercase">blog</a>
+				
 			</div>
 		</nav>
 
@@ -56,10 +56,48 @@
 
 	</section>
 
+
+
+
+
+	
+	<section class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="recipient-name" class="control-label">Your Email:</label> <input type="text"
+								class="form-control" id="yourEmail">
+						</div>
+						<div class="form-group">
+							<label for="message-text" class="control-label">Message:</label>
+							<textarea class="form-control" id="message-text"></textarea>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary" id="sendMessageButton">Send message</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
 	<footer class="container-fluid text-center">
-		<p>Symfony Technologies LLC. © 2016 All rights reserved</p>
+		<p>Symfony Technologies LLC. © 2016</p>
 	</footer>
 </body>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="symfony_main.js"></script>
 
 </html>
